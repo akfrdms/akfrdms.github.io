@@ -1,15 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marimori</title>
 
-  <!-- AdSense 코드 -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2169791821835014"
-    crossorigin="anonymous"></script>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Noto+Color+Emoji&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2169791821835014"
+     crossorigin="anonymous"></script>
+     
+<style>
+
+body{
+    margin:0;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    background:#000;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    min-height:100vh;
+}
+
+.site-title{
+    margin-top:25px;
+    margin-bottom:45px;
+}
+
+.site-title img{
+    width:135px;
+    height:auto;
+}
+
+.game-list{
+    width:80%;
+    max-width:1200px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+}
+
+.game-item{
+    background:#1a1a1a;
+    border-radius:12px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,0.6);
+    transition:transform 0.25s ease, box-shadow 0.25s ease;
+    text-decoration:none;
+    color:inherit;
+}
+
+.game-item:hover{
+    transform:translateY(-8px);
+    box-shadow:0 14px 30px rgba(0,0,0,0.9);
+}
+
+.game-item img{
+    width:100%;
+    display:block;
+}
+
+.game-title{
+    padding:15px;
+    font-size:18px;
+    font-weight:bold;
+    color:#eaeaea;
+}
+
+/* Footer fixed at bottom of the viewport */
+.footer {
+    position: fixed;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    font-size:12px;
+    color:#aaa;
+    text-align:center;
+    background: #000; /* 배경 검정 유지 */
+    padding:5px 0;
+    z-index: 1000;
+}
+
+
+</style>
 </head>
+
 <body>
-  <h1>Marimori</h1>
+
+<div class="site-title">
+<img src="siteAsset/siteTitle.png" alt="Marimori">
+</div>
+
+<div class="game-list">
+
+<a href="siteAsset/game.html?game=1x1" class="game-item">
+<img src="GameAsset/1X1/1x1_head.jpg">
+<div class="game-title">1x1</div>
+</a>
+
+<a href="siteAsset/game.html?game=4x4" class="game-item">
+<img src="GameAsset/4X4/4X4_head.jpg">
+<div class="game-title">4x4</div>
+</a>
+
+<a href="siteAsset/game.html?game=emoji-bomb" class="game-item">
+<img src="GameAsset/EMOJI BOMB/EMOJI BOMB_head.jpg">
+<div class="game-title">EMOJI BOMB</div>
+</a>
+
+<a href="siteAsset/game.html?game=on-your-notebook" class="game-item">
+<img src="GameAsset/On Your Notebook/On Your Notebook.jpg">
+<div class="game-title">On Your Notebook</div>
+</a>
+
+</div>
+
+<div class="footer">
+© 2026 Marimori<br> 
+Contact : tlsdbs1118@gmail.com 
+</div>
+
 </body>
 </html>

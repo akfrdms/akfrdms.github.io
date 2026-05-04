@@ -1,0 +1,54 @@
+{
+  "1x1": {
+    "name": "1X1",
+    "genre": "Aracade / Bullet Hell",
+    "platform": "Android / iOS",
+    "short": "Become a little soul lost in a dangerous factory, avoid obstacles and battle bosses.",
+    "long": "Step into a hazardous laboratory as a tiny lost soul, dodge intricate bullet patterns, confront formidable bosses, and unlock doors to progress—experience the robotic factory theme, simple one-button strategies, dynamic combat and evasion, checkpoints to ease the challenge, and infinite bullet stages for endless excitement.",
+    "head": "../GameAsset/1X1/1x1_head.jpg",
+    "youtube": "https://www.youtube.com/embed/2LI9Qj2MPuM",
+    "appstore": "",
+    "playstore": "https://play.google.com/store/apps/details?id=YOURAPPID",
+    "steam": "https://store.steampowered.com/app/3322770/1X1/"
+  },
+
+  "4x4": {
+    "name": "4X4",
+    "genre": "Aracade / Bullet Hell",
+    "platform": "Android",
+    "short": "Survive in a limited space of 16 spaces divided into 4x4 spaces, avoiding obstacles with different themes on each stage.",
+    "long": "4X4 is a thrilling 3-minute challenge on a 16-square grid, where each stage brings a unique theme, music, and fast-paced obstacles. With simple rules, large clear objects, and rhythmic challenges, players must react quickly to survive, take advantage of moving obstacles, and enjoy a perfect blend of bullet hell, rhythm, and puzzle gameplay. Compete in endless mode to beat your best record, all set to beautiful thematic music—this is not an easy game, but the excitement is worth it!",
+    "head": "../GameAsset/4X4/4X4_head.jpg",
+    "youtube": "https://www.youtube.com/embed/VRyJXsDf4Ns",
+    "appstore": "",
+    "playstore": "https://play.google.com/store/apps/details?id=YOURAPPID",
+    "steam": "https://store.steampowered.com/app/2099900/4X4"
+  },
+
+  "emoji-bomb": {
+  "name": "Emoji Bomb",
+  "genre": "Arcade",
+  "platform": "Android",
+  "short": "⏱️ Super-fast 5-second micro-games! 💣 Test your reflexes and set records in fun emoji challenges!",
+  "long": "\n💣 Emoji Bomb\nExperience ultra-fast microgames that last just 5 seconds! React quickly, stay focused, and test your reflexes in this colorful, emoji-filled mini-game collection.\n\n⚡ 5-Second Challenges\nEvery mini-game ends in 5 seconds, delivering intense, high-speed fun where every moment counts.\n\n🖱️ Simple Controls, Rising Difficulty\nOne click is all it takes! But as you progress, games get faster and more challenging—your reflexes and precision determine your score.\n\n🎮 30+ Mini-Games\nDodge bombs, time actions perfectly, and make split-second decisions. Each game brings new scenarios for endless variety.\n\n🎨 Cute Emojis & Lively Sounds\nCharming emoji graphics and energetic sound effects amplify the thrill and excitement of fast-paced gameplay.\n\n🏆 Compete & Improve\nScores rise with success, and one mistake ends the game. Challenge friends or push your own limits in a simple but addictive experience.\n\n🚀 Fast, Short, Intense\nEmoji Bomb delivers explosive fun and tests your reflexes and focus in the ultimate 5-second micro-game adventure.",
+  "head": "../GameAsset/EMOJI BOMB/EMOJI BOMB_head.jpg",
+  "youtube": "https://www.youtube.com/embed/VIDEOID",
+  "privacypolicy": "../GameAsset/EMOJI BOMB/eBombPirvacyPolicy.html",
+  "appstore": "https://apps.apple.com/app/id6760527241",
+  "playstore": "https://play.google.com/store/apps/details?id=com.marimori.emojibomb",
+  "steam": "https://store.steampowered.com/app/4387970/EMOJI_BOMB"
+},
+
+  "on-your-notebook": {
+    "name": "On Your Notebook",
+    "genre": "Casual",
+    "platform": "Android",
+    "short": "lets you play as an animal doodle, surviving against invading sketches on the page.",
+    "long": "On Your Notebook is a grid-based bullet-dodging game where you play as animal doodles trapped on paper, surviving waves of invading sketches. Featuring hand-drawn graphics, precise 13×13 grid movement, and unique character skills, players navigate over 18 patterns across 3 difficulty levels. Large, distinctive obstacles replace countless tiny projectiles for strategic dodging, while a checkpoint system eases repeated attempts. Challenge the highest levels or compete globally in endless mode, enjoying evolved controls and visuals that retain the tension of the original.",
+    "head": "../GameAsset/On Your Notebook/On Your Notebook.jpg",
+    "youtube": "https://www.youtube.com/embed/FlFx1k-Pros",
+    "appstore": "",
+    "playstore": "",
+    "steam": "https://store.steampowered.com/app/3971670/On_Your_Notebook"
+  }
+}
