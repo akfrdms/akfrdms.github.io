@@ -8,7 +8,7 @@
     "head": "../GameAsset/1X1/1x1_head.jpg",
     "youtube": "https://www.youtube.com/embed/2LI9Qj2MPuM",
     "appstore": "",
-    "playstore": "https://play.google.com/store/apps/details?id=YOURAPPID",
+    "playstore": "",
     "steam": "https://store.steampowered.com/app/3322770/1X1/"
   },
 
@@ -21,12 +21,12 @@
     "head": "../GameAsset/4X4/4X4_head.jpg",
     "youtube": "https://www.youtube.com/embed/VRyJXsDf4Ns",
     "appstore": "",
-    "playstore": "https://play.google.com/store/apps/details?id=YOURAPPID",
+    "playstore": "",
     "steam": "https://store.steampowered.com/app/2099900/4X4"
   },
 
   "emoji-bomb": {
-  "name": "Emoji Bomb",
+  "name": "EMOJI BOMB",
   "genre": "Arcade",
   "platform": "Android",
   "short": "⏱️ Super-fast 5-second micro-games! 💣 Test your reflexes and set records in fun emoji challenges!",

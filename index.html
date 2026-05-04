@@ -12,7 +12,7 @@
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2169791821835014"
      crossorigin="anonymous"></script>
-     
+
 <style>
 
 body{
@@ -36,12 +36,13 @@ body{
     height:auto;
 }
 
-.game-list{
-    width:80%;
-    max-width:1200px;
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:30px;
+.game-list {
+    width: 90%; /* 좌우 여백을 적절히 조절 */
+    max-width: 1200px;
+    display: grid;
+    /* 모바일 우선: 한 줄에 무조건 2개씩 배치 */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px; /* 아이템 사이 간격 */
 }
 
 .game-item{
@@ -65,11 +66,27 @@ body{
     display:block;
 }
 
-.game-title{
-    padding:15px;
-    font-size:18px;
-    font-weight:bold;
-    color:#eaeaea;
+.game-title {
+    padding: 10px 5px;
+    font-size: 14px; /* 모바일에서 글자가 깨지지 않도록 크기 조절 */
+    font-weight: bold;
+    color: #eaeaea;
+    /* 글자가 길어질 경우를 대비해 줄바꿈 방지 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* PC 버전일 때 (화면이 넓을 때) 다시 원래대로 조절하고 싶다면 추가 */
+@media (min-width: 768px) {
+    .game-list {
+        width: 80%;
+        gap: 30px;
+        grid-template-columns: repeat(4, 1fr); /* 4개 고정 혹은 repeat(auto-fit, minmax(220px, 1fr)) */
+    }
+    .game-title {
+        font-size: 18px;
+    }
 }
 
 /* Footer fixed at bottom of the viewport */
